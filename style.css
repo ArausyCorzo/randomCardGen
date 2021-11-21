@@ -1,0 +1,44 @@
+body{
+    background-color: green;
+}
+
+main{
+    width: 350px;
+    height: 500px;
+    background-color: honeydew;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 3px 0px 6px 9px rgb(46, 95, 58);
+    transform: translate(-50%, -50%);
+}
+
+section{
+    display: flex;    
+    justify-content: center;
+}
+
+#number-letter{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 450px;
+    font-size: 120px;
+}
+
+#top-icon{
+    font-size: 70px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#bottom-icon{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 70px;
+    position: absolute; 
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(180deg);
+}
