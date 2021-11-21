@@ -34,8 +34,6 @@ section{
 }
 
 #bottom-icon{
-    display: flex;
-    flex-direction: row-reverse;
     font-size: 70px;
     position: absolute; 
     bottom: 20px;
